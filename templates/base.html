@@ -16,6 +16,12 @@
         <div class="hright">
           <a href="/newcode"><button class="btn success">New Code</button></a>
         </div>
+        <form method="get" action='/search/'>
+        <div class="hright">
+          <input type="text" name="q" placeholder="搜索..."/>
+          <button type="submit" class="btn">Search</button>
+        </div>
+        </form>
         <div class="hleft box">
           <h1><a href="/">{{ escape(handler.settings["sitename"]) }}</a></h1>
         </div>
